@@ -25,7 +25,7 @@ function handlePermission() {
     if (!notificationsActive) {
         // Demande la permission et affiche la notification si autorisé
         if (Notification.permission === "granted") {
-            console.log("Notifications déjà actives");
+            console.log("hello");
             showNotification();
             notificationsActive = true;
             toggleNotificationBtn.textContent = "Désactiver les notifications";
